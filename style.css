@@ -1,0 +1,285 @@
+body {
+    background-color: #EDF2C5;
+    font-family: 'Noto Sans TC', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    min-width: 1120px;
+    margin: 0;
+}
+
+/* Header */
+header{
+    display: flex;
+    align-items: center;
+    width: 1120px;
+    height: 62px;
+    margin: 40px auto 5px auto;
+}
+.primary{
+    color: #778A50;
+}
+.header_info{
+    display: flex;
+    margin-left: auto;
+}
+h1{
+    font-size: 44px;
+    font-weight: 900;
+    width:253px;
+    height: 60px;
+    margin: 0;
+}
+.social{
+    height:24px;
+    width:24px;
+    margin: 32px 5px 30px 5px;
+}
+line.header_line{
+    display: block;
+    width: 0px;
+    height: 24px;
+    border:1px solid #778A50;
+    margin: 30px 8px;
+}
+.t1{
+    display:inline-block;
+    font-size: 14px;
+    height: 19px;
+    margin: 30px 5px;
+    border: 1px solid #778A50;
+    border-radius: 3px;
+    padding: 4px 8px;
+}
+#login{
+    width: 46px;
+}
+#join{
+    width: 33px;
+}
+
+/* Navigation */
+nav{
+    display: flex;
+    width: 1120px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778A50;
+    margin: 5px auto 10px auto;
+}
+h2{
+    display: inline-block;
+    font-size: 16px;
+    font-weight: 900;
+    color: #EDF2C5;
+    height: 24px;
+    margin: 10px 30px;
+}
+
+/* Main content */
+.main_img{
+    display: block;
+    width: 100%;
+    max-width: 1120px;
+    height: auto;
+    margin: 5px auto 16px auto;
+    border-radius: 0;
+}
+.body{
+    flex: 1 0 auto;
+    width: 1120px;
+    margin: 0 auto;
+}
+.body_content{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+/* Vegetables */
+.b_vegetables{
+    margin: 0;
+    width: 539px;
+}
+.b_vegetables_title{
+    display: block;
+    margin: 0 0 10px 0;
+    width: 533px;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.b_vegetables_imgs{
+    display: flex;
+    width: 533px;
+    height: 167px;
+    margin-top: 10px;
+    gap: 16px;
+}
+.vegetables_img{
+    width: 167px;
+    height: auto;
+    margin: 0;
+}
+
+/* Vegetables Info*/
+.b_vegetables_info{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    column-gap: 16px;
+    row-gap: 0;
+    width: 533px;
+    margin-top: 10px;
+}
+.vegetable_info_card{
+    background-color: #F7FBDA;
+    width: 167px;
+    height: 177px;
+    margin: 0;
+}
+.vegetable_info_title{
+    display: block;
+    font-size: 16px;
+    font-weight: 900;
+    height: auto;
+    margin: 16px 7px 0 7px;
+}
+.vegetable_info_intro{
+    margin-top: 0;
+    margin: 0 7px;
+}
+.info_line{
+    display: block;
+    width: 153px;
+    border:1px solid #7D7D7D;
+    margin: 8px 7px 8px 7px;
+}
+.vegetables_info_text{
+    margin: 0 7px 16px 7px;
+}
+.nutrition_note{
+    flex: 0 0 100%;
+    margin: 3px 7px;
+}
+.nutrition_value{
+    float: right;
+}
+
+/*Contact*/
+.b_contact_column{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 539px;
+}
+.b_contact{
+    display: block;
+    margin: 0;
+    width: 539px;
+    height: 195px;
+}
+.b_contact_title{
+    display: flex;
+    margin-left: 30px;
+    width: auto;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.b_contact_info{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FBDA;
+    width: auto;
+    height: 140px;
+    margin: 10px 0 0 30px;
+}
+.contact_line{
+    display: block;
+    width: 420px;
+    border:1px solid #7D7D7D;
+    margin: 0 15px;
+}
+.message{
+    margin: 15px 20px 10px 20px;
+}
+.info{
+    margin: 10px 20px 15px 20px;
+}
+
+/* Shared text styles */
+.t2{
+    font-size: 12px;
+}
+.content_text{
+    color:#7D7D7D;
+}
+
+/* Comment */
+.b_comment{
+    display: block;
+    margin: 0;
+    width: 539px;
+    height: 230px;
+}
+.b_comment_title{
+    display: flex;
+    margin-left: 30px;
+    width: auto;
+    height: 45px;
+    background-color: #778A50;
+    border-radius: 3px;
+}
+.b_comment_info{
+    display: flex;
+    flex-direction: column;
+    background-color: #F7FBDA;
+    width: auto;
+    height: 175px;
+    margin: 10px 0 0 30px;
+}
+.comment_text{
+    margin:16px 20px 7px 20px;
+}
+.comment_form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 7px;
+    margin: 0 20px;
+}
+.comment_textarea{
+    box-sizing: border-box;
+    margin:0;
+    width: 100%;
+    height: 78px;
+    resize: none;
+}
+.comment_button{
+    width: auto;
+    height: auto;
+    padding: 6px 12px;
+    background-color: #778A50;
+    border-radius: 3px;
+    color: #EDF2C5;
+    font-size: 12px;
+}
+
+/* Footer */
+footer{
+    display: flex;
+    flex-shrink: 0;
+    width: 100%;
+    height: 60px;
+    border-radius: 3px;
+    background-color: #778A50;
+    margin: 122px 0 0 0;
+}
+.footer_text{
+    display: flex;
+    margin: auto;
+    font-size: 12px;
+    color: #EDF2C5;
+}
+
